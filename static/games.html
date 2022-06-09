@@ -22,13 +22,10 @@
 						<!-- Primary Navbar items -->
 						<div class="hidden md:flex items-center space-x-1">
 							<a href="/" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300 ">Home</a>
-							<a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Community</a>
-							<a href="settings.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300
-">Settings</a>
-<a href="games.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300
+							<a href="https://discord.gg/TZz3aehEDk" target="_blank" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Community</a>
+<a href="games.html" class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold
 ">Games</a>
-<a href="about.html" class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold
-">About</a>
+
 
 
 
@@ -57,9 +54,9 @@
 			<div class="hidden mobile-menu">
 				<ul class="">
 					<li class="active"><a href="index.html" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Home</a></li>
-					<li><a href="/" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Community</a></li>
-					<li><a href="settings.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Settings</a></li>
-					<li><a href="games.html" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Games</a></li>
+					<li ><a href="/" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Community</a></li>
+					<li><a href="settings.html" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Settings</a></li>
+					<li><a href="games.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Settings</a></li>
 	
 				</ul>
 			</div>
@@ -73,16 +70,31 @@
 			</script>
 		</nav>
 		
-		<div id="backgroundimage">		
-			<p class="text-slate-700 flex justify-center items-center h-screen text-2xl">Ultravhola is a Ultraviolet front-end. Ultravhola was made for the Imperium Proxy server. Ultravhola Has a built in tab cloaker
-			</p>
-			<br>
-
-		</div>
   
+<iframe src="list.html" style="width:100%;height:100%;" frameborder="0"></iframe>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
     <script src="uv/uv.bundle.js"></script>
     <script src="uv/uv.config.js"></script>
     <script src="index.js"></script>
+	<script>
+		const options = {
+	bottom: '64px', // default: '32px'
+	right: 'unset', // default: '32px'
+	left: '32px', // default: 'unset'
+	time: '0.5s', // default: '0.3s'
+	mixColor: '#fff', // default: '#fff'
+	backgroundColor: '#fff',  // default: '#fff'
+	buttonColorDark: '#100f2c',  // default: '#100f2c'
+	buttonColorLight: '#fff', // default: '#fff'
+	saveInCookies: false, // default: true,
+	label: '🌓', // default: ''
+	autoMatchOsTheme: true // default: true
+	}
+	
+	const darkmode = new Darkmode(options);
+	darkmode.showWidget();
+	</script>
 </body>
 
 </html>
