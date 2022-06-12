@@ -17,7 +17,7 @@ npm install
 npm start
 ```
 
-## Replit Useage
+## Replit Usage
 
 ```bash
 npm install
