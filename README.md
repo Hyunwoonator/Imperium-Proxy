@@ -1,4 +1,4 @@
-<img width="39" alt="Screen Shot 2022-06-11 at 7 18 23 PM" src="https://user-images.githubusercontent.com/72828378/173211799-724494f2-e1e6-4c10-9262-7b1f4cf68ca3.png">
+<img align="left" width="70px"" src="https://user-images.githubusercontent.com/72828378/173211799-724494f2-e1e6-4c10-9262-7b1f4cf68ca3.png">
 # Imperium Proxy
 
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/Hyunwoonator/Imperium-Proxy)
