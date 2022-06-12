@@ -24,3 +24,5 @@ npm install
 chmod +x main.sh
 ./main.sh
 ```
+
+Imperium Proxy will be running on port 443
