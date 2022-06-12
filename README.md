@@ -16,3 +16,11 @@ npm install
 
 npm start
 ```
+
+## Replit Useage
+
+```bash
+npm install
+chmod +x main.sh
+./main.sh
+```
