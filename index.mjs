@@ -18,4 +18,4 @@ server.on('upgrade', (req, socket, head) => {
 	socket.end();
 });
 
-server.listen(process.env.PORT || 8080);
+server.listen(process.env.PORT || 443);
